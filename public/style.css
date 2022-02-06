@@ -1,0 +1,192 @@
+.edit{
+    background-color: black;
+}
+.img{
+    border: none;
+    outline: none;
+    background-color: darkgray;
+}
+@media only screen and (max-width: 600px) {
+    .im{
+      width: 80px;
+    }
+  }
+  /* @media only screen and (max-width: 300px) {
+    .im{
+      width: 60px;
+    }
+  } */
+  @media only screen and (max-width: 350px) {
+    .img{
+      width: 150px;
+    }
+  }
+  @media only screen and (max-width: 270px) {
+    .img{
+      width: 100px;
+    }
+  }
+  @media only screen and (max-width: 388px) {
+    .cc{
+      margin-top: 1em;
+    }
+  }
+  @media only screen and (max-width: 311px) {
+    .ccc{
+      margin-top: 1em;
+    }
+  }
+  @media only screen and (max-width: 222px) {
+    .ccc{
+      margin-top: 0;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .img4{
+      width: 160px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .img4{
+      width: 160px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 325px) {
+    .img4{
+      width: 140px;
+    }
+  }
+  @media only screen and (max-width: 325px) {
+    .img4{
+      width: 140px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .img4{
+      width: 120px;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .img4{
+      width: 120px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .img4{
+      width: 106px;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .img4{
+      width: 106px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 374px) {
+    .img5{
+      width: 150px;
+      height: 245px;
+    }
+  }
+  @media only screen and (max-width: 254px) {
+    .img5{
+      width: 120px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 225px) {
+    .img5{
+      width: 110px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .img4{
+      width: 106px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 461px) {
+    .ho{
+      width: 200px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 387px) {
+    .ho{
+      width: 180px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 371px) {
+    .ho{
+      width: 170px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 352px) {
+    .ho{
+      width: 150px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 313px) {
+    .ho{
+      width: 130px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 271px) {
+    .ho{
+      width: 110px;
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 232px) {
+    .ho{
+      width: 90px;
+      height: 250px;
+    }
+  }
+ 
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  .wrapper{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+.bo{
+  /* width: 400px; */
+  position: relative;
+  overflow: hidden; 
+}
+.content{
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+
+}
+.bo:hover .content{
+  top: 0;
+
+}
